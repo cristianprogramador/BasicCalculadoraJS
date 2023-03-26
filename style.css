@@ -1,0 +1,31 @@
+#appCal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#appCal form{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: blue 10px 5px 30px;
+}
+form .resultado{
+    margin: 10px 0 20px 15px;
+    border-radius: 100px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+}
+form .botones{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+    border-radius: 100px;
+}
+

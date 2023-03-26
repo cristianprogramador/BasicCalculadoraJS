@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="appCal">
+        <form action="" name="calculadora">
+            <input class="resultado" type="textfield" name="ans" value="" autocomplete="off" readonly>
+            <br>
+            <input id="siete" class="botones" type="button" value="7" onclick="miFuncion(7)">
+            <input class="botones" type="button" value="8" onclick="miFuncion(8)">
+            <input class="botones" type="button" value="9" onclick="miFuncion(9)">
+            <input class="botones" type="button" value="+" onclick="miFuncion('+')">
+            <br>
+            <input class="botones" type="button" value="4" onclick="miFuncion(4)">
+            <input class="botones" type="button" value="5" onclick="miFuncion(5)">
+            <input class="botones" type="button" value="6" onclick="miFuncion(6)">
+            <input class="botones" type="button" value="-" onclick="miFuncion('-')">
+            <br>
+            <input class="botones" type="button" value="1" onclick="miFuncion(1)">
+            <input class="botones" type="button" value="2" onclick="miFuncion(2)">
+            <input class="botones" type="button" value="3" onclick="miFuncion(3)">
+            <input class="botones" type="button" value="*" onclick="miFuncion('*')">
+            <br>
+            <input class="botones" type="button" value="0" onclick="miFuncion(0)">
+            <input class="botones" type="reset" value="C">
+            <input class="botones" type="button" value="=" onclick="document.calculadora.ans.value=eval(document.calculadora.ans.value)">
+            <input class="botones" type="button" value="/" onclick="miFuncion('/')">
+        </form>
+    </div>
+    
+</body>
+</html>
